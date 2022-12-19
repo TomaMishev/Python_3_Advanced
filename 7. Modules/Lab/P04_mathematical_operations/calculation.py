@@ -1,0 +1,27 @@
+def add(a, b):
+    return a + b
+
+
+def subtract(a, b):
+    return a - b
+
+
+def multiply(a, b):
+    return a * b
+
+
+def division(a, b):
+    return a / b
+
+
+def power(a, b):
+    return a ** b
+
+
+calculation = {
+    "+": add,
+    "-": subtract,
+    "*": multiply,
+    "/": division,
+    "^": power
+}
